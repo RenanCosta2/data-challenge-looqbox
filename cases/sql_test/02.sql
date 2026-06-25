@@ -1,0 +1,8 @@
+SELECT DISTINCT
+	DEP_NAME, SECTION_NAME
+FROM
+	`looqbox-challenge`.data_product 
+WHERE
+	DEP_NAME IN ('BEBIDAS', 'PADARIA')
+ORDER BY
+	DEP_NAME
